@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
 public class Main { //Nome de classes sempre em maiusculo
     public static void main(String[] args) {
 
@@ -36,5 +36,12 @@ public class Main { //Nome de classes sempre em maiusculo
         System.out.println(classificacao);
 
 
+
+        //Atividade Conversor de temperatura - instanciando objeto ConversorDeTemperatura
+        ConversorDeTemperatura conversor = new ConversorDeTemperatura();
+
+        //Chama metodos para coletar e converter graus celsius para farenheit
+        conversor.coletandoGrausCelsius();
+        conversor.conversaoCelsiusParaFarenheit();
     }
 }
