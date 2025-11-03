@@ -1,0 +1,8 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Pasta de saída do IntelliJ
+out/
