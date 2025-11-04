@@ -1,4 +1,4 @@
-
+package RequisitosDoProjeto;
 
 public class Main { //Nome de classes sempre em maiusculo
     public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class Main { //Nome de classes sempre em maiusculo
 
 
 
-        //Atividade Conversor de temperatura - instanciando objeto ConversorDeTemperatura
+        //Atividade Conversor de temperatura - instanciando objeto Requisitos.ConversorDeTemperatura
         ConversorDeTemperatura conversor = new ConversorDeTemperatura();
 
         //Chama metodos para coletar e converter graus celsius para farenheit

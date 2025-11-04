@@ -1,3 +1,5 @@
+package RequisitosDoProjeto;
+
 import java.util.Scanner;
 
 public class Leitura {
