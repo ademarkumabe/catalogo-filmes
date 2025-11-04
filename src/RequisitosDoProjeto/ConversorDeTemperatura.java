@@ -10,9 +10,9 @@ public class ConversorDeTemperatura {
         grausCelsius = keyboard.nextDouble();
     }
     public void conversaoCelsiusParaFarenheit(){
-        grausFahrenheit = grausCelsius * 1.8 + 32;
+        grausFahrenheit = (grausCelsius * 1.8) + 32;
         String mensagem = """
-                %.210f graus celsius equivale %.2f graus farenheit
+                %.2f graus celsius equivale %.2f graus farenheit
                 """.formatted(grausCelsius, grausFahrenheit);
         System.out.println(mensagem);
     }
